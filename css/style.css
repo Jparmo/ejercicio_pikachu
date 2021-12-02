@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: #87283E;
+}
+img{
+    width: 200px;
+    height: 200px;
+    background-color: #D6CC3A;
+}
+main{
+    background-color: #286D87;
+    height: 400px;
+}
+
+main > div{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    left: 200px;
+}
+
+main div div{
+    font-size: 40px;
+
+}
+
+main > div > div:hover{
+    cursor: pointer;
+    font-size: 35px;
+}
+
+p{
+    font-size: 20px;
+    color: white;
+}
